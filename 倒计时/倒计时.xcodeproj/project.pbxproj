@@ -13,6 +13,12 @@
 		61B71661209C042000E2EC6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61B71660209C042000E2EC6E /* Assets.xcassets */; };
 		61B71664209C042000E2EC6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61B71662209C042000E2EC6E /* LaunchScreen.storyboard */; };
 		61B71667209C042000E2EC6E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B71666209C042000E2EC6E /* main.m */; };
+		61B71670209C04A000E2EC6E /* CutdownView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B7166F209C04A000E2EC6E /* CutdownView.m */; };
+		61B71673209C05A500E2EC6E /* VerticalLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B71672209C05A500E2EC6E /* VerticalLabel.m */; };
+		61B7167A209C05FC00E2EC6E /* CutModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B71679209C05FC00E2EC6E /* CutModel.m */; };
+		61B7167D209C063100E2EC6E /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B7167C209C063100E2EC6E /* DemoTableViewController.m */; };
+		61B71680209C064D00E2EC6E /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B7167F209C064D00E2EC6E /* DemoViewController.m */; };
+		61B71683209C067100E2EC6E /* CutDownCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B71682209C067100E2EC6E /* CutDownCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,18 @@
 		61B71663209C042000E2EC6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61B71665209C042000E2EC6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61B71666209C042000E2EC6E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61B7166E209C04A000E2EC6E /* CutdownView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CutdownView.h; sourceTree = "<group>"; };
+		61B7166F209C04A000E2EC6E /* CutdownView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CutdownView.m; sourceTree = "<group>"; };
+		61B71671209C05A500E2EC6E /* VerticalLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VerticalLabel.h; sourceTree = "<group>"; };
+		61B71672209C05A500E2EC6E /* VerticalLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerticalLabel.m; sourceTree = "<group>"; };
+		61B71678209C05FC00E2EC6E /* CutModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CutModel.h; sourceTree = "<group>"; };
+		61B71679209C05FC00E2EC6E /* CutModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CutModel.m; sourceTree = "<group>"; };
+		61B7167B209C063100E2EC6E /* DemoTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
+		61B7167C209C063100E2EC6E /* DemoTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
+		61B7167E209C064D00E2EC6E /* DemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		61B7167F209C064D00E2EC6E /* DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
+		61B71681209C067100E2EC6E /* CutDownCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CutDownCell.h; sourceTree = "<group>"; };
+		61B71682209C067100E2EC6E /* CutDownCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CutDownCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,8 @@
 		61B71656209C042000E2EC6E /* 倒计时 */ = {
 			isa = PBXGroup;
 			children = (
+				61B71674209C05D400E2EC6E /* Demo */,
+				61B7166D209C047500E2EC6E /* CutDownView */,
 				61B71657209C042000E2EC6E /* AppDelegate.h */,
 				61B71658209C042000E2EC6E /* AppDelegate.m */,
 				61B7165A209C042000E2EC6E /* ViewController.h */,
@@ -69,6 +89,56 @@
 				61B71666209C042000E2EC6E /* main.m */,
 			);
 			path = "倒计时";
+			sourceTree = "<group>";
+		};
+		61B7166D209C047500E2EC6E /* CutDownView */ = {
+			isa = PBXGroup;
+			children = (
+				61B7166E209C04A000E2EC6E /* CutdownView.h */,
+				61B7166F209C04A000E2EC6E /* CutdownView.m */,
+				61B71671209C05A500E2EC6E /* VerticalLabel.h */,
+				61B71672209C05A500E2EC6E /* VerticalLabel.m */,
+			);
+			path = CutDownView;
+			sourceTree = "<group>";
+		};
+		61B71674209C05D400E2EC6E /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				61B71677209C05E700E2EC6E /* model */,
+				61B71676209C05E000E2EC6E /* controller */,
+				61B71675209C05DC00E2EC6E /* view */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		61B71675209C05DC00E2EC6E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				61B71681209C067100E2EC6E /* CutDownCell.h */,
+				61B71682209C067100E2EC6E /* CutDownCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		61B71676209C05E000E2EC6E /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				61B7167B209C063100E2EC6E /* DemoTableViewController.h */,
+				61B7167C209C063100E2EC6E /* DemoTableViewController.m */,
+				61B7167E209C064D00E2EC6E /* DemoViewController.h */,
+				61B7167F209C064D00E2EC6E /* DemoViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		61B71677209C05E700E2EC6E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				61B71678209C05FC00E2EC6E /* CutModel.h */,
+				61B71679209C05FC00E2EC6E /* CutModel.m */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +212,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61B71673209C05A500E2EC6E /* VerticalLabel.m in Sources */,
 				61B7165C209C042000E2EC6E /* ViewController.m in Sources */,
 				61B71667209C042000E2EC6E /* main.m in Sources */,
+				61B71680209C064D00E2EC6E /* DemoViewController.m in Sources */,
 				61B71659209C042000E2EC6E /* AppDelegate.m in Sources */,
+				61B71683209C067100E2EC6E /* CutDownCell.m in Sources */,
+				61B7167D209C063100E2EC6E /* DemoTableViewController.m in Sources */,
+				61B7167A209C05FC00E2EC6E /* CutModel.m in Sources */,
+				61B71670209C04A000E2EC6E /* CutdownView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,11 +2,12 @@
 //  AppDelegate.m
 //  倒计时
 //
-//  Created by fish tony on 2018/5/4.
+//  Created by fish tony on 2018/5/3.
 //  Copyright © 2018年 fish tony. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    UINavigationController *nv = [[UINavigationController alloc] initWithRootViewController:[ViewController new]];
+    self.window.rootViewController = nv;
+    
     return YES;
 }
 
@@ -49,3 +54,4 @@
 
 
 @end
+
